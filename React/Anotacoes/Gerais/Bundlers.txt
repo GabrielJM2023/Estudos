@@ -1,0 +1,10 @@
+Um bundler é uma ferramenta de desenvolvimento web que é usada para empacotar (ou "empacotar") vários arquivos de origem, como JavaScript, CSS, imagens e outros recursos, 
+    em um único arquivo ou vários arquivos menores. Isso é feito para facilitar a entrega eficiente de recursos para um navegador da web, reduzindo o número de solicitações de
+    arquivos individuais e otimizando o tamanho total dos arquivos.
+Os bundlers são frequentemente usados em projetos modernos de desenvolvimento web, especialmente aqueles que usam frameworks ou bibliotecas JavaScript complexas, como React, 
+    Vue.js ou Angular. Essas ferramentas permitem que os desenvolvedores escrevam código modular e organizado em vários arquivos e, em seguida, usem o bundler para combinar 
+    esses arquivos em um formato otimizado para produção.
+Além de simplesmente combinar arquivos, os bundlers também podem realizar outras tarefas, como transpilação de código (por exemplo, de ES6 para ES5 usando Babel), minificação
+    de código (removendo espaços em branco e comentários para reduzir o tamanho do arquivo), e carregamento de módulos (usando sistemas como CommonJS, AMD ou ES6 Modules).
+Alguns exemplos populares de bundlers incluem webpack, Parcel, Browserify e Rollup. Cada um tem suas próprias características e vantagens, dependendo das necessidades 
+    específicas do projeto. 

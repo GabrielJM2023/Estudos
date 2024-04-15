@@ -1,0 +1,4 @@
+
+Compilers - 
+    Compiladores de código que formatam o código para outro, quando vou precisar? Para converter uma versão do seu javascript para uma versão que o seu navegador aceite,
+    precisa de um compilador, como BABEL.

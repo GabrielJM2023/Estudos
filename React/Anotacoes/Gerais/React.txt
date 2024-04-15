@@ -1,0 +1,11 @@
+O que é o React? 
+    React é uma biblioteca JavaScript de código aberto utilizada para construir interfaces de usuário (UI) em aplicações web. Desenvolvida pelo Facebook, React foi projetada 
+        para facilitar a criação de componentes reutilizáveis e interativos. A principal ideia por trás do React é permitir que os desenvolvedores criem interfaces de usuário
+        com uma abordagem baseada em componentes, onde cada parte da UI é um componente independente que gerencia seu próprio estado e pode ser reutilizado em diferentes partes
+        da aplicação.
+    Uma das características mais distintivas do React é o uso de um conceito chamado "Virtual DOM" (DOM Virtual), que é uma representação em memória do DOM real.
+    O React utiliza o Virtual DOM para atualizar de forma eficiente apenas as partes da UI que foram alteradas, em vez de recriar toda a árvore de elementos do DOM, 
+    o que torna a aplicação mais rápida e responsiva.
+    Além disso, o React utiliza uma sintaxe chamada JSX, que permite que os desenvolvedores escrevam código JavaScript com marcação HTML, facilitando a criação de componentes
+    de forma declarativa e intuitiva.
+    Em resumo, o React é uma biblioteca poderosa e popular para a criação de interfaces de usuário dinâmicas e eficientes em aplicações web.
