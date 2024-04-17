@@ -1,0 +1,14 @@
+O que é o Node e por que preciso dele? 
+    Node.js é uma plataforma de código aberto construída no motor JavaScript V8 do Google Chrome. Ele permite que você execute código JavaScript no servidor, em vez de apenas
+        no navegador. Com o Node.js, você pode criar aplicativos de rede escaláveis, manipular arquivos no sistema de arquivos do servidor e muito mais.
+    Aqui estão algumas razões pelas quais você pode precisar do Node.js:
+        Desenvolvimento de Servidor: Node.js é frequentemente usado para criar aplicativos de servidor. Ele oferece um ambiente de tempo de execução JavaScript no servidor, 
+            permitindo que você desenvolva aplicativos de back-end usando JavaScript.
+        Execução de Tarefas Assíncronas: JavaScript é uma linguagem de programação assíncrona por natureza. Com o Node.js, você pode aproveitar esse modelo assíncrono para 
+            lidar com operações de entrada e saída de forma eficiente.
+        Empacotamento de Módulos: Node.js possui um sistema de gerenciamento de pacotes integrado, o npm (Node Package Manager), que facilita a instalação e gerenciamento de
+            bibliotecas e módulos de terceiros em seu projeto.
+        Desenvolvimento de Aplicativos Web: Embora o Node.js seja mais comumente associado ao desenvolvimento de back-end, ele também pode ser usado para criar aplicativos
+            web completos, incluindo o front-end, usando frameworks como React, Angular ou Vue.js em conjunto com Node.js.
+        Em resumo, o Node.js é uma ferramenta poderosa para desenvolvedores que desejam criar aplicativos web e de servidor usando JavaScript. Ele fornece um ambiente de 
+            tempo de execução eficiente e escalável, e é amplamente adotado pela comunidade de desenvolvimento de software.
