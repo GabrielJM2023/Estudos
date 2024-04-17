@@ -1,0 +1,7 @@
+O Node.js é um ambiente de execução JavaScript do lado do servidor que permite que você execute código JavaScript fora do navegador. Ele usa o motor V8 do Google Chrome
+    para executar o código JavaScript, o que o torna rápido e eficiente. O Node.js é especialmente popular para o desenvolvimento de aplicativos web e APIs, pois permite que 
+    você crie servidores web robustos e escaláveis usando JavaScript.
+
+Além de ser usado para criar servidores web, o Node.js também é utilizado para desenvolver ferramentas de linha de comando, scripts automatizados, aplicativos de desktop
+    e muito mais. Ele é amplamente utilizado na indústria de desenvolvimento de software devido à sua eficiência e à grande quantidade de pacotes disponíveis no npm 
+    (Node Package Manager), que é o gerenciador de pacotes do Node.js.

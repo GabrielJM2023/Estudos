@@ -1,0 +1,10 @@
+Estrutura:
+    Pasta:
+        Node_modules: Todas as biblitecas para o projeto;
+        Public: Onde que o React inica, pelo index.htlm, tais como algumas configurações da página            
+        Scr: Onde ficara o projeto em si, a codificação da página e componentes
+        .Gitignore: configurações de arquivos que não irão pro repositório 
+        Package.json: Pacotes e dependencias que o projeto utiliza 
+        Package-lock: São as descrições mais detalhadas das dependencias        
+
+
