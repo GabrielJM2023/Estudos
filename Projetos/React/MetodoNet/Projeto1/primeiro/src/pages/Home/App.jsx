@@ -1,10 +1,9 @@
-import logo from '../../assests/images/logo.svg';
 import './App.css';
+import Header from '../../components/Header';
 
 function App() {
   return (
-    <p>Texto na tela</p>
+    <Header></Header>
   );
 }
-
 export default App;
