@@ -7,6 +7,4 @@ function PageTitle(title, actionButton){
     )
 }
 
-
-
 export default PageTitle;
