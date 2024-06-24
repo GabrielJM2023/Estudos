@@ -1,6 +1,6 @@
 import './style.css';
 
-import Coments from '../Coments'
+import { Coments } from '../Coments'
 
 export function Post(){
     return(

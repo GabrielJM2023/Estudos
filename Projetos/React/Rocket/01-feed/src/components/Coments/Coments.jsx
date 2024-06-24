@@ -7,7 +7,9 @@ export function Coments(){
             <textarea 
                 placeholder='Deixe seu comentário'
             />
-            <button type='submit'>Comentar</button>
+            <footer>
+                <button type='submit'>Publicar</button>
+            </footer>
         </div>
     );
 }
