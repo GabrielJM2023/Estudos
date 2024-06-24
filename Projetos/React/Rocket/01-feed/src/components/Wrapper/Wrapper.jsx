@@ -1,13 +1,14 @@
 import './style.css';
 
+import { Sidebar } from '../Sidebar';
+import { Post } from '../Post';
+
 export function Wrapper(){
     return(
         <div className='wrapper'>
-            <aside>
-                sidebar
-            </aside>
+            <Sidebar></Sidebar>
             <main>
-                <strong>aaaaaa</strong>
+                <Post></Post>
             </main>
         </div>
     );

@@ -1,0 +1,1 @@
+export { Coments } from './Coments' 
