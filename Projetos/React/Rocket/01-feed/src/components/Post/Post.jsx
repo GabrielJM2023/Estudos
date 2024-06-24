@@ -1,6 +1,6 @@
 import './style.css';
 
-import { Coments } from '../Coments'
+import { Comments } from '../Comments'
 
 export function Post(){
     return(
@@ -33,7 +33,7 @@ export function Post(){
                     </p>
                     </div>
 
-                    <Coments></Coments>
+                    <Comments></Comments>
                 </form>
             </article>
         </div>

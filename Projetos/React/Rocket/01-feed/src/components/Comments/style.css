@@ -1,16 +1,16 @@
-.Coments{
+.Comments{
     width: 100%;
     margin-top: 1.5rem;
     padding-top: 1.5rem;
     border-top: 1px solid var(--gray-600);
 }
 
-.Coments > strong{
+.Comments > strong{
     line-height: 1.6;
     color: var(--gray-100);
 }
 
-.Coments textarea{
+.Comments textarea{
     width: 100%;
     background: var(--gray-900);
     border: 0;
@@ -23,17 +23,17 @@
     margin-top: 1rem;
 }
 
-.Coments footer{
+.Comments footer{
     visibility: hidden;
     max-height: 0;
 }
 
-.Coments:focus-within footer{
+.Comments:focus-within footer{
     visibility: visible;
     max-height: none;  
 }
 
-.Coments button[type=submit]{
+.Comments button[type=submit]{
     padding: 1rem 1.5rem;
     margin-top: 1rem;
     border-radius: 8px;
@@ -46,6 +46,6 @@
     transition: 0.1s;    
 }
 
-.Coments button[type=submit]:hover{
+.Comments button[type=submit]:hover{
     background: var(--green-300);
 }

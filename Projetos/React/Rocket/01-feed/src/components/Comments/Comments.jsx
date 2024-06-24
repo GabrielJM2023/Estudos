@@ -1,8 +1,8 @@
 import './style.css';
 
-export function Coments(){
+export function Comments(){
     return(
-        <div className='Coments'>
+        <div className='Comments'>
             <strong>Deixe seu comentário</strong>            
             <textarea 
                 placeholder='Deixe seu comentário'
