@@ -42,10 +42,12 @@
     color: var(--white);
     font-weight: bold;
     cursor: pointer;
-
-    transition: 0.1s;    
 }
 
 .Comments button[type=submit]:hover{
     background: var(--green-300);
+}
+
+.CommentList{
+    margin-top: 2rem;
 }

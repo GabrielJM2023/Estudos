@@ -1,4 +1,5 @@
 import './style.css';
+import { Comment } from '../Comment';
 
 export function Comments(){
     return(
@@ -8,8 +9,11 @@ export function Comments(){
                 placeholder='Deixe seu comentário'
             />
             <footer>
-                <button type='submit'>Publicar</button>
+                <button type='submit'>Publicar</button>                
             </footer>
+            <div className='CommentList'>
+                <Comment></Comment>
+            </div>
         </div>
     );
 }
