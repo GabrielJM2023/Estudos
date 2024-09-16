@@ -23,17 +23,17 @@
     margin-top: 1rem;
 }
 
-.Comments footer{
+.Comments .CommentArea footer{
     visibility: hidden;
     max-height: 0;
 }
 
-.Comments:focus-within footer{
+.Comments .CommentArea:focus-within footer{
     visibility: visible;
     max-height: none;  
 }
 
-.Comments button[type=submit]{
+.Comments .CommentArea button[type=submit]{
     padding: 1rem 1.5rem;
     margin-top: 1rem;
     border-radius: 8px;
@@ -44,7 +44,7 @@
     cursor: pointer;
 }
 
-.Comments button[type=submit]:hover{
+.Comments .CommentArea button[type=submit]:hover{
     background: var(--green-300);
 }
 

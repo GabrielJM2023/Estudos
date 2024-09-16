@@ -32,8 +32,8 @@ export function Post(){
                         <a href='#'>#rocketseat</a>
                     </p>
                     </div>
-
-                    <Comments></Comments>
+                    
+                    <Comments></Comments>                    
                 </form>
             </article>
         </div>

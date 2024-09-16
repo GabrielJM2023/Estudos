@@ -7,9 +7,10 @@ export function Comment(){
     return(
         <div className='Comment'>
             <img src='https://github.com/GabrielJM2023.png'
-                                className='avatar'></img>
+                                className='avatar'>
+            </img>
             <div className='CommentBox'>
-                <div className='CommentComment'>
+                <div className='CommentContent'>
                     <header>
                         <div className='AuthorAndTime'>
                             <strong>Gabriel Jardim Machado</strong>
@@ -22,7 +23,7 @@ export function Comment(){
                     </header>
                     <p>
                         Muito bom
-                    </p>
+                    </p>                    
                 </div>    
                 <footer>
                     <button>
