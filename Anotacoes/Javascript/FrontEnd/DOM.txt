@@ -1,0 +1,11 @@
+O DOM (Document Object Model) é uma interface de programação que permite aos scripts (como JavaScript) acessar e modificar o conteúdo, estrutura e estilo de documentos HTML e XML.
+O DOM representa o documento como uma árvore hierárquica, onde cada parte do documento é um nó, e esses nós podem ser elementos, atributos, textos ou outros tipos de nós.
+
+Por meio do DOM, você pode:
+
+Acessar e manipular elementos individuais em uma página da web.
+Alterar o conteúdo ou estilo dos elementos.
+Adicionar, remover ou modificar elementos e atributos no documento.
+Responder a eventos do usuário (como cliques ou teclas pressionadas).
+Por exemplo, em uma página HTML, você pode usar JavaScript para acessar um elemento com document.getElementById("meuElemento"), e então alterar suas propriedades ou conteúdo. 
+O DOM é essencial para a criação de páginas interativas e dinâmicas na web.
