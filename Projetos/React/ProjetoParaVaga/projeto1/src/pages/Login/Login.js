@@ -8,8 +8,37 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import Box from '@mui/material/Box';
 
+import { supabase } from '../../supabaseCliente';
+import { useState } from 'react';
+
 const Login = () => {  
-  return (
+    const [email, setEmail] = useState('');
+    const [senha, setSenha] = useState('');    
+    const [error, setError] = useState('');    
+
+    const Register = async () => {
+        window.location.href = '/cadastro';
+    }
+
+    const handleLogin = async () =>{
+        try{
+            const {error} = await supabase.auth.signInWithPassword({
+                email: email,
+                senha: senha,
+            });
+
+            if (error){
+                setError(error.message);
+            }else {
+                window.location.href = '/home';
+            }
+
+        } catch (error){
+            console.error('Erro ao fazer login:', error);
+        }
+    };
+
+    return (
     <div className='CardLogin'>        
         <Container component="main" maxWidth="md">            
         <Box
@@ -22,7 +51,7 @@ const Login = () => {
                 <Container component="main" maxWidth="xs" sx={{
                     borderRadius: 5,                    
                 }}>
-                    <Box component="form" 
+                    <Box component="form" noValidate 
                         sx={{
                             marginTop: 5,
                             display: 'flex',
@@ -37,12 +66,15 @@ const Login = () => {
                         
                         <TextField
                             margin="normal"                                    
+                            required
                             fullWidth
                             id="email"
                             label="Email"
                             name="email"
                             autoComplete="email"
                             autoFocus
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
                         />
 
                         <TextField
@@ -55,7 +87,9 @@ const Login = () => {
                             className={'primary.main'}
                             id="password"
                             autoComplete="current-password"
-                        />                        
+                            value={senha}
+                            onChange={(e) => setSenha(e.target.value)}
+                        />   
 
                         <FormControlLabel
                             control={<Checkbox value="remember" color="primary" />}
@@ -68,6 +102,7 @@ const Login = () => {
                             fullWidth
                             variant="contained"
                             sx={{ mt: 3, mb: 2 }}
+                            onClick={handleLogin}
                         >
                             Logar
                         </Button>
@@ -76,6 +111,7 @@ const Login = () => {
                             fullWidth
                             variant="contained"
                             sx={{ mt: 3, mb: 2 }}
+                            handleLogin={Register}
                         >
                             Cadastrar
                         </Button>                            
