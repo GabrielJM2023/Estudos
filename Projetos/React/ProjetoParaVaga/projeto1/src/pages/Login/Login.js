@@ -26,7 +26,8 @@ const Login = () => {
                 email: email,
                 senha: senha,
             });
-
+   
+            
             if (error){
                 setError(error.message);
             }else {

@@ -8,7 +8,7 @@ export function Comment(){
         <div className='Comment'>
             <img src='https://github.com/GabrielJM2023.png'
                                 className='avatar'>
-            </img>
+            </img>        
             <div className='CommentBox'>
                 <div className='CommentContent'>
                     <header>
