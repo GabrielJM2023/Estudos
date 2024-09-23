@@ -1,5 +1,6 @@
 import './style.css';
 import { PiPencilLine } from "react-icons/pi";
+import { Avatar } from '../Avatar';
 
 export function Sidebar(){
     return(
@@ -10,7 +11,7 @@ export function Sidebar(){
                 >            
             </img>
             <div className='profile'>
-                <img className='avatar' src='https://github.com/GabrielJM2023.png'></img>
+                <Avatar src='https://github.com/GabrielJM2023.png'></Avatar>
                 <strong>Gabriel Jardim</strong>
                 <span>Programador Front-end</span>                
             </div>                
