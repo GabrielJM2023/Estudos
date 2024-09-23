@@ -1,4 +1,3 @@
-// src/pages/Login/Login.js
 import React from 'react';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
@@ -17,7 +16,7 @@ const Login = () => {
     const [error, setError] = useState('');    
 
     const Register = async () => {
-        window.location.href = '/cadastro';
+        window.location.href = '/Register';
     }
 
     const handleLogin = async () =>{
@@ -107,6 +106,7 @@ const Login = () => {
                         >
                             Logar
                         </Button>
+                        
                         <Button
                             type="submit"
                             fullWidth
