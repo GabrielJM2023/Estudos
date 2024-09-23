@@ -1,0 +1,20 @@
+.Cadastro{
+    background-color: red;
+}
+
+.Titulo{
+    background-color: aqua;    
+    display: flex;
+    justify-content: center;   
+}
+
+.Informacoes{
+    background-color: blue;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    margin-top: 10rem;
+}
