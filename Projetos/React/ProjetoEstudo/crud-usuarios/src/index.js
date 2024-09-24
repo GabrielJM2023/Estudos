@@ -12,8 +12,9 @@ root.render(
   <React.StrictMode>
   <Router>
       <Routes>
-        <Route path="/" element={<Login />} />        
-        <Route path="/cadastro" element={<Cadastro/>} />        
+        <Route path="/" element={<Cadastro />} />        
+        <Route path="/login" element={<Login/>} />         
+        <Route path="/home" element={<Login/>} />      
       </Routes>
     </Router>
   </React.StrictMode>
