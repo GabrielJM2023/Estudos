@@ -99,7 +99,9 @@ const Jogador = () => {
             </div>
           </div>          
         </div>        
+        
         <div className="DadosCarreira">
+        
         </div>
       </div>
     </Home>
