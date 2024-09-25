@@ -4,6 +4,8 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Login from './pages/Login/App'
 import Cadastro from './pages/Cadastro/page'
+import Home from './pages/Home/pageHome';
+import Jogador from './pages/Home/Jogador/page';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -14,7 +16,8 @@ root.render(
       <Routes>
         <Route path="/" element={<Cadastro />} />        
         <Route path="/login" element={<Login/>} />         
-        <Route path="/home" element={<Login/>} />      
+        <Route path="/home" element={<Home/>} />      
+        <Route path="/jogador" element={<Jogador/>} />              
       </Routes>
     </Router>
   </React.StrictMode>

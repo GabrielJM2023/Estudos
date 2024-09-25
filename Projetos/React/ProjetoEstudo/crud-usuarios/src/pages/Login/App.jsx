@@ -38,6 +38,7 @@ function App() {
             <input type='password' name='senha' placeholder='Senha' value={senha} onChange={(e) => setSenha(e.target.value)}/>
           </div>          
           <button type='button' className='btn-login' onClick={handleLogin}>Entrar</button>
+          <a href='/home'>Entrar sem fazer login</a>
         </div>  
       </div>
       <div className="right-login">

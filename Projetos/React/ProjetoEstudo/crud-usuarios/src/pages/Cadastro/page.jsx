@@ -44,6 +44,7 @@ function Cadastro(){
                         <input type='password' name='senha' placeholder='Senha' value={senha} onChange={(e) => setSenha(e.target.value)}/>                        
                     </div>
                     <button onClick={signUpWithEmail} type='button' className='btn-cadastro'>Cadastrar</button>
+                    <a href='/home'>Entrar sem fazer login</a>
                 </div>
             </div>
         </div>

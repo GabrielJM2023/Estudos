@@ -86,6 +86,10 @@ body *{
     color: #86a797;
 }
 
+a{
+    color: #085b70;
+}
+
 .btn-cadastro{
     width: 100%;
     padding: 16px 0px;

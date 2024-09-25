@@ -1,0 +1,17 @@
+.Paghome{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 97vw;
+    height: 95vh;  
+}
+
+.home .titulo{
+    font-size: 3vw;
+    color: #77ffc0;
+}
+
+.ImgLogoHome{
+    width: 30vw;
+}
