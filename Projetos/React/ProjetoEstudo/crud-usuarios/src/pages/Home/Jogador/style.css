@@ -1,0 +1,71 @@
+.PagJogador{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;    
+    height: 95vh;
+    margin-left: 100px;
+    
+    background-color: aqua;
+    border-radius: 50px;
+}
+
+.AreaTopo{
+    grid-row: 1/3;
+    display: flex;
+    justify-content: center;    
+}
+
+.LogoJogador{
+    width: 60%;
+    height: 60%;
+}
+
+.Dados{
+}
+
+.DadosCarreira{
+}
+
+.DadosJogador{
+    display: flex;
+    flex-direction: column;    
+    font-size: 25px;
+    color: #2f2841;
+}
+
+.Dados {
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+.Dados .TituloAvaliacao{
+    font-size: 40px;
+}
+
+.Dados .TituloAvaliacaoDiv{
+    margin-bottom: 20px;
+}
+
+.ProgressBarsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+}
+
+.ProgressBar {
+    display: flex;
+    flex-direction: column; 
+    width: calc(33.33% - 10px); 
+    color: #2f2841;
+    font-size: 20px;
+}
+
+.TituloProgressBar {
+    display: flex;
+    justify-content: space-between; 
+}
+
+progress {
+    width: 100%; 
+    margin-top: 5px;
+}

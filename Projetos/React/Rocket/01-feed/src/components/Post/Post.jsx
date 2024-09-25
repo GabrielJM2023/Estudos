@@ -1,4 +1,5 @@
 import './style.css';
+import { Avatar } from '../Avatar';
 
 import { Comments } from '../Comments'
 
@@ -9,8 +10,7 @@ export function Post(){
                 <form>
                     <header>
                         <div className='author'>
-                            <img src='https://github.com/GabrielJM2023.png'
-                                className='avatar'></img>
+                            <Avatar src='https://github.com/GabrielJM2023.png'/>
                             <div className='authorInfo'>
                                 <strong>Gabriel Jardim</strong>
                                 <span>Programador Front-End</span>
